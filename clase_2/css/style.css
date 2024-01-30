@@ -1,0 +1,60 @@
+* {
+    margin: 10px;;
+    padding: 4;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #117a37;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+}
+body {
+    background-color:rgba(0, 0, 0, 0.918);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+footer{
+    background-color: black;
+}
+p{
+    color: rgb(253, 255, 254);
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: rgb(250, 249, 249);
+}
+h3 {
+    color: rgb(250, 242, 242);
+}
+h4 {
+    color: rgb(250, 249, 249);
+}
+li {
+    color: rgb(250, 249, 249)
+}
+td a {
+    color: rgb(250, 249, 249);
+}
+td{
+    color: rgb(250, 249, 249);
+}
+li a {
+    color: #117a37;
+}
+/* refencia por ID */
+#parrafoAzul{
+    color: blue;
+}
+/* referencia por classes */
+.parrafoVerde{
+    color: green;
+}

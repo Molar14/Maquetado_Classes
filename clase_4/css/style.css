@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color: blue;
+}
+.container{
+border: 1px blue;
+height: 500px;
+width: 500px;
+background-color: black;
+}
+.circle1{
+position: absolute;
+height: 250px;
+width: 250px;
+top: 200px;
+left: 100px;
+background-color: blue;
+border-radius: 50%;
+}
+.circle2{
+position: absolute;
+height: 150px;
+width: 150px;
+top: 120px;
+left: 250px;
+background-color: red;
+border-radius: 50%;
+
+}
+.circle3{
+position: absolute;
+height: 150px;
+width: 150px;
+top: 120px;
+left: 50px;
+background-color: red;
+border-radius: 50%;
+}
+/*transiciones*/
+.btn{
+    padding: 5px;
+    background-color: aqua;
+    color: white;
+    transition: all 2000ms ease;
+
+}
+.btn:hover{
+    background: white;
+    color: aqua;
+    border: 1px solid rgb(75, 109, 167);
+    transform: scale(3);
+}

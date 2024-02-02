@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile */
+header h1{
+    text-align: center;
+}
+body{
+    width: 100%;
+    background: rgb(45,48,50);
+    background: radial-gradient(circle, rgba(45,48,50,1) 0%, rgba(80,131,233,1) 35%, rgba(255,255,255,1) 100%);
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+}
+.blogList{
+    width: 80%;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.post{
+    width: 100%;
+    text-align: center;
+    background-color:burlywood;
+    margin: 20px 0;
+}
+
+/* tablets */
+
+@media screen and (min-width: 768px) {
+    .post{
+        width:48%;
+        display:inline-block;
+        margin: 20px 0.5%;
+    }
+    
+}
+@media screen and (min-width:1440px) { 
+    .post{
+        width:32%;
+        display:inline-block;
+        margin: 20px 0.5%;
+    }
+}

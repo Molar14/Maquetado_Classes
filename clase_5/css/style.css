@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.contenedor{
+    width: 450px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.contenedor2{
+    width: 100%;
+    height: 200px;
+    background-color: brown;
+}
+.cajaMorada{
+    background-color: blueviolet;
+    height: 100px;
+
+}
+#Mobile{
+    display: block;
+}
+#Tablet{
+    display: none;
+}
+#Desktop{
+    display: none;
+}
+#XXL{
+    display: none;
+}
+@media screen and (min-width: 768px){
+        body{
+            background-color: rgba(124, 9, 9, 0.836);
+        }
+        #Mobile{
+            display: block;
+        }
+        #Tablet{
+            display: none;
+        }
+        #Desktop{
+            display: none;
+        }
+        #XXL{
+            display: none;
+        }
+@media screen and (min-width: 992px){
+    body{
+        background-color: rgb(19, 27, 134);
+    }
+    #Mobile{
+        display: none;
+    }
+    #Tablet{
+        display: block;
+    }
+    #Desktop{
+        display: none;
+    }
+    #XXL{
+        display: none;
+    }
+}
+@media screen and (min-width: 1440px){
+    body{
+        background-color: rgb(46, 156, 74);
+    }
+    #Mobile{
+        display: none;
+    }
+    #Tablet{
+        display: none;
+    }
+    #Desktop{
+        display: block;
+    }
+    #XXL{
+        display: none;
+    }
+}
+@media screen and (min-width: 1980px){
+    body{
+        background-color: rgb(252, 58, 242);
+    }
+    #Mobile{
+        display: none;
+    }
+    #Tablet{
+        display: none;
+    }
+    #Desktop{
+        display: none;
+    }
+    #XXL{
+        display: block;
+    }
+}

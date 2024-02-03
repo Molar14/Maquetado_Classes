@@ -1,35 +1,73 @@
 *{
+    font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 0;
     margin: 0;
 }
-a{
+body{
+    background-color: #B4B4B8;
+}
+.Titulo{
+    color: #52565e;
+    font-size: 15px;
+    display: flex;
+    top: 20px;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+
+}
+.etiqueta a{
     text-decoration: none;
-    color: black;
+        color: #52565e;
 }
 main{
     display: flex;
 }
 .sticky{
     position: sticky;
-}
-.etiqueta{
+    top: 10%;
+    margin-left: 30px;
+  }
+  .etiqueta{
+    background-color: #E3E1D9;
     list-style:none;
+    border: 0.1px solid black;
+    width: 100%;
+    font-size: 11px;
+    height: 21px;
 }
 .etiqueta:hover{
-    background-color: aqua;
+    color: #000;
+    background-color: bisque;
+    transition: all 600ms cubic-bezier(1, 0, 1, 1.25);
+    transform: scale(1.2);
+}
+.etiqueta:hover a{
+    color: black;
 }
 .side{
     display: flex;
+    width: 100%;
+    display: block;
 }
 .menu{
-    padding: 20px;
-    width: 100%;
-    align-content: space-between;
+    background-color: #C7C8CC;
+    color: #7a60ec;
+    display: flex;
+    padding: 10px;
+    width: 70px;
     flex-direction: column;
+    align-content: center;
     gap: 5px;
     text-align: center;
+    height: 600px;
 }
 .contenido{
+    position: relative;
+    top: 70px;
     padding: 20px;
     width: 100%;
     display: flex;
@@ -39,7 +77,194 @@ main{
     gap: 10px;
 }
 .Texto{
+    font-size: 11px;
+    color: #52565e;
+    background-color: #E3E1D9;
     border: 1px solid black;
     width: 85%;
     padding: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.Texto h2{
+    text-align: center;
+    line-height: 2em;
+}
+@media screen and (min-width: 768px){
+    .Titulo{
+        color: #52565e;
+        font-size: 30px;
+        display: flex;
+        top: 20px;
+        padding: 15px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 10%;
+    
+    }
+    .sticky{
+        position: sticky;
+        top: 8%;
+        margin-left: 50px;
+      }
+      .menu{
+        background-color: #C7C8CC;
+        color: #7a60ec;
+        display: flex;
+        padding: 10px;
+        width: 120px;
+        flex-direction: column;
+        align-content: center;
+        gap: 5px;
+        text-align: center;
+        height: 720px;
+    }
+    .contenido{
+        position: relative;
+        top: 120px;
+        padding: 20px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 10px;
+    }
+    .Texto{
+        font-size: 20px;
+        color: #52565e;
+        background-color: #E3E1D9;
+        border: 1px solid black;
+        width: 85%;
+        padding: 20px;
+    }
+    .etiqueta{
+        background-color: #E3E1D9;
+        list-style:none;
+        border: 0.1px solid black;
+        width: 100%;
+        font-size: 15px;
+        height: 21px;
+    }
+}
+@media screen and (min-width: 992px){
+    .Titulo{
+        color: #52565e;
+        font-size: 30px;
+        display: flex;
+        top: 20px;
+        padding: 15px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 10%;
+    
+    }
+    .sticky{
+        position: sticky;
+        top: 5%;
+        margin-left: 50px;
+      }
+      .menu{
+        background-color: #C7C8CC;
+        color: #7a60ec;
+        display: flex;
+        padding: 10px;
+        width: 120px;
+        flex-direction: column;
+        align-content: center;
+        gap: 5px;
+        text-align: center;
+        height: 750px;
+    }
+    .contenido{
+        position: relative;
+        top: 120px;
+        padding: 20px;
+        width: 95%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 10px;
+    }
+    .Texto{
+        font-size: 20px;
+        color: #52565e;
+        background-color: #E3E1D9;
+        border: 1px solid black;
+        width: 85%;
+        padding: 20px;
+    }
+    .etiqueta{
+        background-color: #E3E1D9;
+        list-style:none;
+        border: 0.1px solid black;
+        width: 100%;
+        font-size: 15px;
+        height: 21px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .Titulo{
+        color: #52565e;
+        font-size: 35px;
+        left: 40px;
+        display: flex;
+        top: 20px;
+        padding: 15px;
+        position: absolute;
+        width: 10%;
+        text-align: center;
+        justify-content: center;
+        height: 10%;
+    }
+    .sticky{
+        position: sticky;
+        top: 13%;
+        margin-left: 60px;
+      }
+      .menu{
+        background-color: #C7C8CC;
+        color: #7a60ec;
+        display: flex;
+        padding: 10px;
+        width: 150px;
+        flex-direction: column;
+        align-content: center;
+        gap: 5px;
+        text-align: center;
+        height: 770px;
+    }
+    .contenido{
+        position: relative;
+        top: 10px;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 10px;
+    }
+    .Texto{
+        font-size: 20px;
+        color: #52565e;
+        background-color: #E3E1D9;
+        border: 1px solid black;
+        width: 85%;
+        padding: 20px;
+    }
+    .etiqueta{
+        background-color: #E3E1D9;
+        list-style:none;
+        border: 0.1px solid black;
+        width: 100%;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1980px){
 }

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.contenido{
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 2%;
+}
+.letra{
+    padding: 15px;
+    position: sticky;
+    top:1%;
+    font-size: xx-large;
+    background-color: rgb(41, 40, 40);
+    color: rgb(73, 235, 58);
+}
+.lista{
+    font-size: x-large;
+    padding: 15px;
+    line-height: 30px;
+}
+

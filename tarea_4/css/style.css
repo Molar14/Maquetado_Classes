@@ -267,4 +267,60 @@ main{
     }
 }
 @media screen and (min-width: 1980px){
+    .Titulo{
+        color: #52565e;
+        font-size: 35px;
+        left: 40px;
+        display: flex;
+        top: 20px;
+        padding: 15px;
+        position: absolute;
+        width: 10%;
+        text-align: center;
+        justify-content: center;
+        height: 10%;
+    }
+    .sticky{
+        position: sticky;
+        top: 13%;
+        margin-left: 60px;
+      }
+      .menu{
+        background-color: #C7C8CC;
+        color: #7a60ec;
+        display: flex;
+        padding: 10px;
+        width: 150px;
+        flex-direction: column;
+        align-content: center;
+        gap: 5px;
+        text-align: center;
+        height: 770px;
+    }
+    .contenido{
+        position: relative;
+        top: 10px;
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: space-between;
+        gap: 10px;
+    }
+    .Texto{
+        font-size: 20px;
+        color: #52565e;
+        background-color: #E3E1D9;
+        border: 1px solid black;
+        width: 85%;
+        padding: 20px;
+    }
+    .etiqueta{
+        background-color: #E3E1D9;
+        list-style:none;
+        border: 0.1px solid black;
+        width: 100%;
+        font-size: 16px;
+    }
 }

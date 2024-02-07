@@ -1,0 +1,28 @@
+@import "post";
+@import "global";
+
+body{
+    background-color: black;
+}
+#hero{
+    background-image:url(https://www.hofmann.es/blog/wp-content/uploads/2021/09/HF_3_Paisajes_WEB-23.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover;
+    min-height: 100vh;
+    background-position: center;
+    text-align: center;
+    line-height: 50px;
+    h1{
+        color: blanchedalmond;
+        font-size: 50px;
+    }
+    p{
+        color: cadetblue;
+        font-size: 40px;
+    }
+}
+section{
+    width: 100%;
+    @include flexColumnCenter();
+    gap: 20px;
+}

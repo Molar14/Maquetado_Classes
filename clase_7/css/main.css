@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(104, 45, 45);
+}
+
+section {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .post {
+  width: 20%;
+  background-color: bisque;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .post img {
+  border-radius: 50%;
+}
+section .post .content {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+section .post .content p {
+  color: cadetblue;
+  font-size: xx-large;
+}
+section .post .content #btnRojo {
+  border: 1px solid #252525;
+  background-color: aqua;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

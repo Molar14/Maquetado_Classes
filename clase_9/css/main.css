@@ -1,0 +1,50 @@
+.myCol {
+  background-color: purple;
+  border: 1px solid red;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.espacio {
+  margin-top: 50px;
+}
+
+.espacio2 {
+  margin-top: 20px;
+}
+
+.espacioAbout {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+.cartas {
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+}
+
+.espacioPort {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.espacioBotones {
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.boton {
+  font-weight: 500;
+  padding: 10px 24px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #EFF2F9;
+  color: #051441;
+  font-size: 20px;
+  transition: all 0.3s ease-out 0s;
+}
+.boton:hover {
+  background-color: blueviolet;
+}/*# sourceMappingURL=main.css.map */

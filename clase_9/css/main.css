@@ -1,6 +1,5 @@
 .myCol {
-  background-color: purple;
-  border: 1px solid red;
+  border: 1px solid rgb(64, 65, 66);
   margin-top: 20px;
   text-align: center;
 }
@@ -47,4 +46,50 @@
 }
 .boton:hover {
   background-color: blueviolet;
+}
+
+.espacioTeam {
+  margin-top: 10%;
+}
+
+.Hero {
+  background-image: url(https://www.hofmann.es/blog/wp-content/uploads/2021/09/HF_3_Paisajes_WEB-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  background-position: center;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+}
+
+.boton2 {
+  font-weight: 500;
+  padding: 10px 24px;
+  border: 0;
+  border-radius: 50px;
+  background-color: blueviolet;
+  color: #051441;
+  font-size: 20px;
+  transition: all 0.3s ease-out 0s;
+}
+
+.formulario {
+  font-weight: 500;
+  padding: 10px 24px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #EFF2F9;
+  color: #rgb 64, 65, 66;
+  font-size: 20px;
+  border: 1px solid rgb(64, 65, 66);
+}
+
+.Preguntas {
+  gap: 10px;
+}
+
+.espacioNews {
+  background-color: blueviolet;
+  margin-top: 5%;
 }/*# sourceMappingURL=main.css.map */
